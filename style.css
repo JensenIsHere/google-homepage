@@ -1,3 +1,12 @@
+a {
+	color: #505050;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .mainbox {
 	position: absolute;
 	top: 156px;
@@ -35,8 +44,8 @@
 
 #microphone {
 	position: relative;
-	left: 200px;
-	bottom: 34px;
+	left: 512px;
+	bottom: 32px;
 	border: none;
 	background-color: #fff;
 }
@@ -62,4 +71,43 @@
 	border-color: #c0c0c0;
 	color: #505050;
 	box-shadow: 0 1px 0 0 #ececec;
+}
+
+.topbar {
+	dislay: flex;
+	background-color: #c0c0c0;
+	font-size: 13px;
+	font-family: Arial;
+	color: #505050;
+	padding: 0 15px;
+}
+
+.topiteml {
+	float: left;
+	padding: 25px 10px
+}
+
+.topitemc {
+	align-content: center;
+}
+
+.topitemr {
+	float: right;
+	padding: 25px 7px
+}
+
+.topbutton {
+	background-color: #4285f4;
+	border-radius: 4px;
+	margin: auto;
+	padding: 6px 15px;
+	border: solid 1px #ececec;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.appsbutton {
+	border: none;
+	background-color: #fff;
 }
