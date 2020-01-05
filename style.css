@@ -1,4 +1,4 @@
-.searchbox {
+.mainbox {
 	position: absolute;
 	top: 156px;
 	left: 354px;
@@ -8,13 +8,37 @@
 #logo {
 	display: block;	
 	margin: auto;
-	background-color: #e8b0b0;
 }
 
 #searchbox {
 	display: block;
 	margin: auto;
-	background-color: #d4f4c5;
+	font-size: 16px;
+	border: solid 1px #e0e0e0;
+	border-radius: 25px;
+	padding: 10px 50px;
+	background-color: #ffffff;
+	background-image: url("magglass2.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 46px 46px;
+}
+
+.searcharea {
+	display: inline;
+}
+
+#searchbox:hover {
+	border: solid 1px #ffffff;
+	box-shadow: 1px 1px 5px #c0c0c0;
+}
+
+#microphone {
+	position: relative;
+	left: 200px;
+	bottom: 34px;
+	border: none;
+	background-color: #fff;
 }
 
 .buttonbox {
@@ -25,7 +49,6 @@
 }
 
 .buttons {
-	display: inline-block;
 	background-color: #ececec;
 	border-radius: 4px;
 	margin: 5px 3px;
