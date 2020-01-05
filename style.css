@@ -74,8 +74,6 @@ a:hover {
 }
 
 .topbar {
-	dislay: flex;
-	background-color: #c0c0c0;
 	font-size: 13px;
 	font-family: Arial;
 	color: #505050;
@@ -110,4 +108,25 @@ a:hover {
 .appsbutton {
 	border: none;
 	background-color: #fff;
+}
+
+.bottombar {
+	font-size: 14px;
+	font-family: Arial;
+	background-color: #eee;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border: solid 1px #ddd;
+	padding: 0 17px;
+}
+
+.bottomiteml {
+	float: left;
+	padding: 17px 14px;
+}
+
+.bottomitemr {
+	float: right;
+	padding: 17px 14px;
 }
